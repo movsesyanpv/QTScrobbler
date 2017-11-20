@@ -1,17 +1,17 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.12
+VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libscrobble", "lib\libscrobble.vcxproj", "{7FBE5530-0643-37B9-8B5F-F76262D1E086}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libscrobble", "lib\libscrobble.vcxproj", "{0A2D49E8-ABED-39C1-B6EC-70707FB2D8CB}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "qtscrob", "qt\qtscrob.vcxproj", "{717A1D45-4EFE-3619-B4B7-A03E62DABC45}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "qtscrob", "qt\qtscrob.vcxproj", "{BCC69A25-090A-3926-A167-D5A4B42B31E6}"
 	ProjectSection(ProjectDependencies) = postProject
-		{7FBE5530-0643-37B9-8B5F-F76262D1E086} = {7FBE5530-0643-37B9-8B5F-F76262D1E086}
+		{0A2D49E8-ABED-39C1-B6EC-70707FB2D8CB} = {0A2D49E8-ABED-39C1-B6EC-70707FB2D8CB}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "scrobbler", "cli\scrobbler.vcxproj", "{863CDA9B-96BF-3CFF-A6C3-30F6BD5A9796}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "scrobbler", "cli\scrobbler.vcxproj", "{EF4BA911-7F73-3ABE-890E-3379A2460C1C}"
 	ProjectSection(ProjectDependencies) = postProject
-		{7FBE5530-0643-37B9-8B5F-F76262D1E086} = {7FBE5530-0643-37B9-8B5F-F76262D1E086}
+		{0A2D49E8-ABED-39C1-B6EC-70707FB2D8CB} = {0A2D49E8-ABED-39C1-B6EC-70707FB2D8CB}
 	EndProjectSection
 EndProject
 Global
@@ -20,24 +20,24 @@ Global
 		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7FBE5530-0643-37B9-8B5F-F76262D1E086}.Debug|x64.ActiveCfg = Debug|x64
-		{7FBE5530-0643-37B9-8B5F-F76262D1E086}.Debug|x64.Build.0 = Debug|x64
-		{7FBE5530-0643-37B9-8B5F-F76262D1E086}.Release|x64.ActiveCfg = Release|x64
-		{7FBE5530-0643-37B9-8B5F-F76262D1E086}.Release|x64.Build.0 = Release|x64
-		{717A1D45-4EFE-3619-B4B7-A03E62DABC45}.Debug|x64.ActiveCfg = Debug|x64
-		{717A1D45-4EFE-3619-B4B7-A03E62DABC45}.Debug|x64.Build.0 = Debug|x64
-		{717A1D45-4EFE-3619-B4B7-A03E62DABC45}.Release|x64.ActiveCfg = Release|x64
-		{717A1D45-4EFE-3619-B4B7-A03E62DABC45}.Release|x64.Build.0 = Release|x64
-		{863CDA9B-96BF-3CFF-A6C3-30F6BD5A9796}.Debug|x64.ActiveCfg = Debug|x64
-		{863CDA9B-96BF-3CFF-A6C3-30F6BD5A9796}.Debug|x64.Build.0 = Debug|x64
-		{863CDA9B-96BF-3CFF-A6C3-30F6BD5A9796}.Release|x64.ActiveCfg = Release|x64
-		{863CDA9B-96BF-3CFF-A6C3-30F6BD5A9796}.Release|x64.Build.0 = Release|x64
+		{0A2D49E8-ABED-39C1-B6EC-70707FB2D8CB}.Debug|x64.ActiveCfg = Debug|x64
+		{0A2D49E8-ABED-39C1-B6EC-70707FB2D8CB}.Debug|x64.Build.0 = Debug|x64
+		{0A2D49E8-ABED-39C1-B6EC-70707FB2D8CB}.Release|x64.ActiveCfg = Release|x64
+		{0A2D49E8-ABED-39C1-B6EC-70707FB2D8CB}.Release|x64.Build.0 = Release|x64
+		{BCC69A25-090A-3926-A167-D5A4B42B31E6}.Debug|x64.ActiveCfg = Debug|x64
+		{BCC69A25-090A-3926-A167-D5A4B42B31E6}.Debug|x64.Build.0 = Debug|x64
+		{BCC69A25-090A-3926-A167-D5A4B42B31E6}.Release|x64.ActiveCfg = Release|x64
+		{BCC69A25-090A-3926-A167-D5A4B42B31E6}.Release|x64.Build.0 = Release|x64
+		{EF4BA911-7F73-3ABE-890E-3379A2460C1C}.Debug|x64.ActiveCfg = Debug|x64
+		{EF4BA911-7F73-3ABE-890E-3379A2460C1C}.Debug|x64.Build.0 = Debug|x64
+		{EF4BA911-7F73-3ABE-890E-3379A2460C1C}.Release|x64.ActiveCfg = Release|x64
+		{EF4BA911-7F73-3ABE-890E-3379A2460C1C}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		Qt5Version = msvc2017_64
-		SolutionGuid = {F013CC8A-48FE-47DA-8260-F60FD29023A6}
+		Qt5Version = 5.9.2
+		SolutionGuid = {2E3597F9-3671-412A-9144-5046B9403E88}
 	EndGlobalSection
 EndGlobal
